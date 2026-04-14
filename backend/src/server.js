@@ -9,7 +9,7 @@ dotenv.config();
 
 const app = express();
 const port = process.env.PORT || 5000;
-const allowedOrigins = (process.env.CLIENT_ORIGIN || 'http://localhost:5173,http://localhost:8080,https://to-do-app-b8a7.onrender.com')
+const allowedOrigins = (process.env.CLIENT_ORIGIN || 'http://localhost:5173,http://localhost:8080,https://to-do-app-mu-five-41.vercel.app/')
   .split(',')
   .map((origin) => origin.trim())
   .filter(Boolean);
