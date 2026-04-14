@@ -69,7 +69,7 @@ const Register = () => {
                   <Input
                     id="name"
                     type="text"
-                    placeholder="John Doe"
+                    placeholder="Enter Your Name"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     className="pl-10"

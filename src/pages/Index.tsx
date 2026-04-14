@@ -67,7 +67,7 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="text-center py-6 text-sm text-muted-foreground">
-        Built with ♥ using React & Lovable Cloud
+        Crafted with care using React
       </footer>
     </div>
   );
