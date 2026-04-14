@@ -23,7 +23,7 @@ const Dashboard = () => {
   const completedCount = tasks.filter((t) => t.completed).length;
   const pendingCount = tasks.length - completedCount;
 
-  const userName = user?.user_metadata?.full_name || user?.email?.split('@')[0] || 'User';
+  const userName = user?.name || user?.email?.split('@')[0] || 'User';
 
   return (
     <div className="min-h-screen bg-background">
